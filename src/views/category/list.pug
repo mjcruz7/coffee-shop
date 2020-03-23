@@ -1,0 +1,21 @@
+html
+    head
+        title Categories
+        style
+            include ../../assets/css/style.css
+    body
+        h1.text-center Categories
+        table.text-center
+            thead
+                tr
+                    th Id
+                    th Name
+                    th Description
+                    th Created By
+            tbody
+                each category in categories
+                    tr
+                        td=category.id
+                        td=category.name
+                        td=category.description
+                        td=category.user.name

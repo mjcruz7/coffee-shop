@@ -1,0 +1,36 @@
+{
+    "name": "coffee-shop",
+    "version": "1.0.0",
+    "description": "NodeJS REST Server for coffee-shop",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app"
+    },
+    "keywords": [
+        "MongoDB",
+        "express",
+        "REST Server",
+        "JWT",
+        "Bcrypt"
+    ],
+    "author": "mjcruz7",
+    "license": "Apache License 2.0",
+    "jshintConfig": {
+        "undef": true,
+        "unused": true,
+        "esversion": 8,
+        "node": true
+    },
+    "dependencies": {
+        "bcrypt": "^4.0.1",
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.1.6",
+        "google-auth-library": "^5.10.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.9.5",
+        "mongoose-unique-validator": "^2.0.3",
+        "pug": "^2.0.4"
+    }
+}

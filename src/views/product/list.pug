@@ -1,0 +1,25 @@
+html
+    head
+        title Products
+        style
+            include ../../assets/css/style.css
+    body
+        h1.text-center Products
+        table.text-center
+            thead
+                tr
+                    th Id
+                    th Name
+                    th Description
+                    th Price
+                    th Category
+                    th Created By
+            tbody
+                each product in products
+                    tr
+                        td=product.id
+                        td=product.name
+                        td=product.description
+                        td=product.price
+                        td=product.category.name
+                        td=product.user.name
