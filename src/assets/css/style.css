@@ -1,0 +1,23 @@
+h1 {
+    padding: .5rem 0;
+}
+
+.text-center {
+    text-align: center;
+    width: 100%;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: separate;
+}
+
+th,
+td {
+    border: 1px solid #000000;
+}
+
+table>thead {
+    background: #000000;
+    color: #FFFFFF;
+}

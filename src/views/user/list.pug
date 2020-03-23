@@ -1,0 +1,19 @@
+html
+    head
+        title Users
+        style
+            include ../../assets/css/style.css
+    body
+        h1.text-center Users
+        table.text-center
+            thead
+                tr
+                    th Id
+                    th Name
+                    th Email
+            tbody
+                each user in users
+                    tr
+                        td=user.id
+                        td=user.name
+                        td=user.email
